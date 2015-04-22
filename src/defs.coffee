@@ -53,7 +53,7 @@ categories_tree =
       me: {           # kilométrage max
    type: Number
       },   
-ps: {                 # prix min
+      ps: {           # prix min
         type: 'list',
         values: {
           0: 0,
@@ -101,7 +101,7 @@ ps: {                 # prix min
         }
       },
 
-pe: {                 # prix max
+       pe: {           # prix max
         type: 'list',
         values: {
           1: 250,
@@ -148,7 +148,7 @@ pe: {                 # prix max
         }
       },
 
-fu: {
+       fu: {           # carburant
         type: 'array',
         values: {
           1: 'essence',
@@ -160,7 +160,7 @@ fu: {
       }
     },
 
-gb: {
+       gb: {           # transmission
         type: 'array',
         values: {
           1: 'manuelle',
